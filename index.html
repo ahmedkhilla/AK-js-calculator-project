@@ -19,8 +19,71 @@
       href="./assets/icons8-calculator-32.png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <script defer src="./app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="primary-heading">you can do your math here 😃</h1>
+      <div class="calc-box">
+        <div class="flex-container">
+          <div class="flex currency-ex">
+            <button>
+              <i class="fa-solid fa-dollar-sign"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+              <i class="fa-solid fa-shekel-sign"></i>
+            </button>
+
+            <button>
+              <i class="fa-solid fa-shekel-sign"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+              <i class="fa-solid fa-dollar-sign"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-euro-sign"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+              <i class="fa-solid fa-shekel-sign"></i>
+            </button>
+            <button class="equal-btn" id="equal-btn">=</button>
+          </div>
+          <!-- Shekels into US Dollars
+Dollars into Shekels
+Shekels into Euros
+Euros into Shekels -->
+          <div class="flex">
+            <button class="clear-btn">AC</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="op-btn"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="flex">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="op-btn"><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div class="flex">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="op-btn"><i class="fa-solid fa-minus"></i></button>
+          </div>
+          <div class="flex">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="op-btn"><i class="fa-solid fa-divide"></i></button>
+          </div>
+          <div class="result">0</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
