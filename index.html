@@ -30,59 +30,31 @@
     <script defer src="./app.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1 class="primary-heading">you can do your math here 😃</h1>
-      <div class="calc-box">
-        <div class="flex-container">
-          <div class="flex currency-ex">
-            <button>
-              <i class="fa-solid fa-dollar-sign"></i>
-              <i class="fa-solid fa-arrow-right"></i>
-              <i class="fa-solid fa-shekel-sign"></i>
-            </button>
+    <h1 class="primary-heading">you can do your math here 😃</h1>
+    <div class="calc-container">
+      <p class="input-display">0</p>
+      <div class="numsOps-container">
+        <div class="numbers-container"></div>
+        <div class="operators-container"></div>
+      </div>
+      <div class="currency-ex">
+        <button id="DtS">
+          <i class="fa-solid fa-dollar-sign"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+          <i class="fa-solid fa-shekel-sign"></i>
+        </button>
 
-            <button>
-              <i class="fa-solid fa-shekel-sign"></i>
-              <i class="fa-solid fa-arrow-right"></i>
-              <i class="fa-solid fa-dollar-sign"></i>
-            </button>
-            <button>
-              <i class="fa-solid fa-euro-sign"></i>
-              <i class="fa-solid fa-arrow-right"></i>
-              <i class="fa-solid fa-shekel-sign"></i>
-            </button>
-            <button class="equal-btn" id="equal-btn">=</button>
-          </div>
-          <!-- Shekels into US Dollars
-Dollars into Shekels
-Shekels into Euros
-Euros into Shekels -->
-          <div class="flex">
-            <button class="clear-btn">AC</button>
-            <button>0</button>
-            <button>.</button>
-            <button class="op-btn"><i class="fa-solid fa-xmark"></i></button>
-          </div>
-          <div class="flex">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="op-btn"><i class="fa-solid fa-plus"></i></button>
-          </div>
-          <div class="flex">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="op-btn"><i class="fa-solid fa-minus"></i></button>
-          </div>
-          <div class="flex">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="op-btn"><i class="fa-solid fa-divide"></i></button>
-          </div>
-          <div class="result">0</div>
-        </div>
+        <button id="StD">
+          <i class="fa-solid fa-shekel-sign"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+          <i class="fa-solid fa-dollar-sign"></i>
+        </button>
+        <button id="EtS">
+          <i class="fa-solid fa-euro-sign"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+          <i class="fa-solid fa-shekel-sign"></i>
+        </button>
+        <button class="equal-operator">=</button>
       </div>
     </div>
   </body>
