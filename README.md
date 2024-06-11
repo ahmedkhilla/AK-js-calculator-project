@@ -1,7 +1,7 @@
 # Calculator Application
 
 ## Overview
-Welcome to my Calculator application! This simple calculator, developed by Ahmed Khilla, allows you to perform basic arithmetic operations and currency conversions between USD, ILS (New Shekel), and EUR.
+Welcome to my [Calculator application](https://ahmedkhilla.github.io/Calculator-App/)! This simple calculator, developed by Ahmed Khilla, allows you to perform basic arithmetic operations and currency conversions between USD, ILS (New Shekel), and EUR.
 ## Features
 - Basic Arithmetic Operations:
     - Addition (+)
@@ -25,5 +25,7 @@ cd calculator
 1. Open the `index.html` file in your web browser.
 2. Use the on-screen buttons to perform calculations and currency conversions.
 
+## Live App
+check [here](https://ahmedkhilla.github.io/Calculator-App/)
 ## Author
 Ahmed Khilla
